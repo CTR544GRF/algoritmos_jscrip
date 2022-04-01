@@ -1,0 +1,42 @@
+body{
+    background:url(../img/website.jpg);
+     text-align: center;
+    
+    }
+    h1{
+        font-size:30;
+        color: hsl(210, 36%, 96%);
+        margin-Top: 100px;
+    }
+    p{
+        font-size: 25;
+        color: #1f2020;
+    
+    }button{
+        padding:10px 30px ;
+        background: transparent;
+        margin: 20px 30px;
+        font-size: 10;
+        color: #ffffff;
+        border: 3px solid #ffff;
+        border-radius: 10px;
+        transition-duration: 0.4s;
+        /*  */
+    
+    }
+    /* pasar el cursor y ver un cambio */
+    button:hover {
+    background: whitesmoke;
+    border: #202122;
+    color:#1f2020;
+    border: 3px solid rgb(12, 12, 12);
+    border-radius: 10px;
+    font-family: fantasy;
+    }
+    img{
+        /* tamaño img */
+    width: 100%;
+    }
+    h2{
+        color:antiquewhite;
+    }
